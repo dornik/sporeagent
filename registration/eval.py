@@ -213,7 +213,7 @@ if __name__ == '__main__':
     code_path = os.path.dirname(os.path.abspath(__file__)).replace("/registration", "")
     if args.dataset == "lm":
         from dataset.dataset import DatasetLinemod
-        test_dataset = DatasetLinemod("test") with re-trained one
+        test_dataset = DatasetLinemod("test")
     elif args.dataset == "ycbv":
         from dataset.dataset import DatasetYcbVideo
         test_dataset = DatasetYcbVideo("test")
