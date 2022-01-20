@@ -1,6 +1,6 @@
 # SporeAgent: Reinforced Scene-level Plausibility for Object Pose Refinement
 This repository implements the approach described in *SporeAgent: Reinforced Scene-level Plausibility for Object Pose 
-Refinement* ([WACV 2022](https://openaccess.thecvf.com/content/WACV2022/html/Bauer_SporeAgent_Reinforced_Scene-Level_Plausibility_for_Object_Pose_Refinement_WACV_2022_paper.html)).
+Refinement* ([WACV 2022](https://openaccess.thecvf.com/content/WACV2022/html/Bauer_SporeAgent_Reinforced_Scene-Level_Plausibility_for_Object_Pose_Refinement_WACV_2022_paper.html), [arXiv](https://arxiv.org/abs/2201.00239)).
 
 
 ![Iterative refinement using SporeAgent](resources/qualitative.png)
