@@ -21,3 +21,5 @@ dependencies:
       - glumpy==1.1.0
       - scikit-image==0.17.2
       - open3d==0.9.0.0
+      - pytz==2024.1
+      - pypng==0.20220715.0

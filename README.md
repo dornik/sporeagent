@@ -86,7 +86,7 @@ To compute the AD scores using the BOP Toolkit, `BOP_PATH/scripts/eval_bop19.py`
 - to use the correct test targets, change `p['targets_filename']` to `'test_targets_add.json'`
 
 ### YCB-Video
-Extract the prepared samples into `PATH_TO_BOP_YCBV/reagent/` and set `YCBV_PATH` in `config.py` to the base directory, 
+Extract the prepared samples into `PATH_TO_BOP_YCBV/sporeagent/` and set `YCBV_PATH` in `config.py` to the base directory, 
 i.e., `PATH_TO_BOP_YCBV`. Clone the [YCB Video Toolbox](https://github.com/yuxng/YCB_Video_toolbox) to 
 `POSECNN_YCBV_RESULTS_PATH`. Extract the `results_PoseCNN_RSS2018.zip` and copy [`test_data_list.txt`](https://owncloud.tuwien.ac.at/index.php/s/tVOCv0iF08LLYo5) 
 to the same directory. The `POSECNN_YCBV_RESULTS_PATH` in `config.py` needs to be changed to the respective directory. 
@@ -97,7 +97,9 @@ To compute the ADD/AD/ADI AUC scores using the YCB-Video Toolbox, replace the re
 ones provided in `sporeagent/ycbv_toolbox`. 
 
 ### Pretrained models
-Weights for both datasets can be found [here](https://owncloud.tuwien.ac.at/index.php/s/2raCqzmYbwZfKUV). Download and 
+`Important notice: Previously, by mistake, the weights from the *first* epoch (instead of 100) were provided here. If you downloaded them before May 22, 2024, please replace the weights with the corrected versions below.`
+
+Weights for both datasets can be found [here](https://drive.google.com/drive/folders/1v95GmTvQp10SA4nmNtSsxRWPanKwYI38?usp=sharing). Download and 
 copy them to `sporeagent/weights/`.
 
 ## Training
